@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="A8F25B5BD054CC2FCAD622EEB1C529DE65D1A6BFC8C8013A6DED499D12E234F5B7C1B4298424BC6E892035130A0AC32D017BA01CF535EDED928EA752688D1D8B" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="LabVIEW Migration" Name="http://www.ni.com/LabVIEW.Migration" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="8.4.0.49575" Name="LabVIEW Conversion" Version="5.1.0" />
+	</SourceModelFeatureSet>
+	<MappingDefinition xmlns="http://www.ni.com/LabVIEW.Migration">
+		<FileQualifiedNameSource QualifiedName="CountingPipes.vi">
+			<FileQualifiedNameTarget QualifiedName="My Computer::CountingPipes.gvi" />
+		</FileQualifiedNameSource>
+	</MappingDefinition>
+</SourceFile>

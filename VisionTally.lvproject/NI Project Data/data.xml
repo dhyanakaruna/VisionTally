@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="0EEC1409D0D156D5D08B3FCB08136B1DCE998A57CF649F6FCA4F7974C0F52E0D56543A0CC208E01B85B47365C67A509F8936F8C6C1B378089D4344ED36FD9344" Timestamp="1D7B2AD5B28F436" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="Data" Name="http://www.ni.com/Data" OldestCompatibleVersion="6.2.0.0" Version="6.2.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="8.4.0.49575" Name="LabVIEW NXG" Version="5.1.0" />
+	</SourceModelFeatureSet>
+	<DataIndexDefinition xmlns="http://www.ni.com/Data" />
+	<EnvoyManagerFile Id="29c29014014c4834a894522c454e19da" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="1f569b76592a4033bf4acd7f028a55fb" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="819230298e134477bb8144ca37b33a2d" Name="data.xml" NameTracksFileName="True">
+			<EmbeddedDefinitionReference Id="51d6fd9ab56a48899b45076fcf0131d9" ModelDefinitionType="TDMSRootDefinition" Name="TDMS_Root">
+				<TDMSRootDefinition StoragePath="Data-2021-09-26 080605 257.tdms" xmlns="http://www.ni.com/Data" />
+				<EmbeddedDefinitionReference Id="2cb2f36718ed4136963cf89b5054d5db" ModelDefinitionType="TDMSGroupDefinition" Name="TDMS_GROUP">
+					<TDMSGroupDefinition GroupName="Capture 1" Source="CountingPipes.gvi" SourceType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Timestamp="09/26/2021 08:06:05" xmlns="http://www.ni.com/Data" />
+					<EmbeddedDefinitionReference Id="84cf5806e49d4dd9a5d0cf0d32006cee" ModelDefinitionType="TDMSDataItemDefinition" Name="timeout (1000)">
+						<TDMSDataItemDefinition DataName="timeout (1000)" DataType="Int32" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="24ae763aabe344ef85d538fbe087a57a" ModelDefinitionType="TDMSDataItemDefinition" Name="Max Radius ">
+						<TDMSDataItemDefinition DataName="&quot;Max Radius &quot;" DataType="Single" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="f383ebdaf14144cda71f2c41f22313e0" ModelDefinitionType="TDMSDataItemDefinition" Name="Min Radius ">
+						<TDMSDataItemDefinition DataName="&quot;Min Radius &quot;" DataType="Single" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="e2b8039b0d634b1eab57032615b26990" ModelDefinitionType="TDMSDataItemDefinition" Name="Operation ">
+						<TDMSDataItemDefinition DataName="&quot;Operation &quot;" DataType="@c854c160ebcd44ac8d9fb585a5cace7b" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="1436379a0ce14113a06ec3380a34a974" ModelDefinitionType="TDMSDataItemDefinition" Name="Method">
+						<TDMSDataItemDefinition DataName="Method" DataType="Int32" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="c8d37efc978e4be784a85ae6298fcfe3" ModelDefinitionType="TDMSDataItemDefinition" Name="Color Plane ">
+						<TDMSDataItemDefinition DataName="&quot;Color Plane &quot;" DataType="Int32" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="e49b25feb9ad477d9e09281ebb13b20f" ModelDefinitionType="TDMSDataItemDefinition" Name="error out">
+						<TDMSDataItemDefinition DataName="error out" DataType="Error" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="d4eeef6f1c324d3992ba6fbe557bd5f0" ModelDefinitionType="TDMSDataItemDefinition" Name="Object Data (calibrated)">
+						<TDMSDataItemDefinition DataName="Object Data (calibrated)" DataType="@a5075e91387f457bb155515b37ccafc0" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="ad785c35fcb543c98c6aa2d6d5c12152" ModelDefinitionType="TDMSDataItemDefinition" Name="Object Data ">
+						<TDMSDataItemDefinition DataName="&quot;Object Data &quot;" DataType="@a5075e91387f457bb155515b37ccafc0" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="4a18c723363b4ebe9098a03c7f575c9c" ModelDefinitionType="TDMSDataItemDefinition" Name="NUMBER OF PIPES">
+						<TDMSDataItemDefinition DataName="NUMBER OF PIPES" DataType="Int32" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+					<EmbeddedDefinitionReference Id="f32d60cd12a44404a6752c6558fb70c1" ModelDefinitionType="TDMSDataItemDefinition" Name="error in">
+						<TDMSDataItemDefinition DataName="error in" DataType="Error" xmlns="http://www.ni.com/Data" />
+					</EmbeddedDefinitionReference>
+				</EmbeddedDefinitionReference>
+			</EmbeddedDefinitionReference>
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="c854c160ebcd44ac8d9fb585a5cace7b">
+			<Enumeration>
+				<Members>
+					<EnumerationMember Value="0" Name="AutoM" />
+					<EnumerationMember Value="1" Name="Close" />
+					<EnumerationMember Value="2" Name="Dilate" />
+					<EnumerationMember Value="3" Name="Erode" />
+					<EnumerationMember Value="4" Name="Gradient" />
+					<EnumerationMember Value="5" Name="Gradient out" />
+					<EnumerationMember Value="6" Name="Gradient in" />
+					<EnumerationMember Value="7" Name="Hit miss" />
+					<EnumerationMember Value="8" Name="Open" />
+					<EnumerationMember Value="9" Name="PClose" />
+					<EnumerationMember Value="10" Name="POpen" />
+					<EnumerationMember Value="11" Name="Thick" />
+					<EnumerationMember Value="12" Name="Thin" />
+				</Members>
+				<DataType>UInt32</DataType>
+			</Enumeration>
+		</p.TypeReference>
+		<p.TypeReference TypeId="a5075e91387f457bb155515b37ccafc0">
+			<VariableArray DereferenceType="@6660b20939dc4bc0b3e7de80391c272a" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="6660b20939dc4bc0b3e7de80391c272a">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="Pos. X" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Pos. Y" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Radius" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Core Area" DataType="Int32" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+</SourceFile>
